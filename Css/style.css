@@ -1,0 +1,182 @@
+body{
+    margin: 0 auto;
+    background-color: white;
+}
+.Container{
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: darkgray;
+}
+.Header{
+    max-width: 1000px;
+    height: 204px;
+    background-image: url("../Images/silas-baisch-f4bfvVXKZP8-unsplash.jpg");
+    -webkit-background-size: cover ;
+    background-size: contain;
+}
+.Logo{
+    height: 204px;
+    float: left;
+}
+.Search{
+    float: right;
+    padding: 20px;
+}
+.clearfix{
+    clear: both;
+}
+/*main menue*/
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main-menu > ul> li{
+    display: inline-block;
+}
+.main-menu > ul> li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu > ul> li > a:hover{
+    background-color: orange;
+}
+/* drop */
+.drop{
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    position: absolute;
+    display: none;
+}
+.drop >li> a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;  
+}
+.drop >li> a:hover{
+    background-color: orange;
+}
+/* drop */
+.main-menu > ul> li:hover .drop{
+    display: block;
+}
+/*main menue*/
+.banner{
+    width: 1000px;
+    height: 527.36;
+    overflow: hidden;
+}
+.banner img{
+    width: 1000px;
+    height: 527.36px;
+    display: none;
+}
+.banner img.active{
+    display: inline-block;
+}
+#block-content{
+    max-width: 910px;
+    height: auto;
+    padding: 15px;
+    margin: 25px;
+    background-color: aqua;
+    line-height: 1.5em;
+    border: 5px solid rgb(0, 68, 255);
+    border-radius: 15px;
+    color: rgb(0, 68, 255);
+    font-weight: bold;
+    box-shadow: 5px 5px 12px rgb(118, 158, 231);
+}
+.block-content-2nd{
+ color: crimson;
+}
+.main-fotter{
+    background-color: rgb(5, 85, 36);
+    color: black;
+    max-width: 960px;
+    height: auto;
+    padding: 20px;
+    display: inline-flex;
+    margin: 0px;
+    border: 0px;
+}
+.fotter-block{
+    float: left;
+    max-width: 316.66px;
+    height: auto;
+    text-align: center;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}    
+.fotter-block >h3>a{
+    text-decoration: none;
+    color: wheat;
+}
+.fotter-block > address> h3{
+    font-style: normal;
+}
+.copy{
+    font-family: sans-serif;
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.copy p{
+    margin: 0px;
+}
+
+.content{
+    padding: 25px;
+}
+.content img{
+    max-width: 100%;
+}
+.maps{
+    width: 1000px;
+    height: 350px;
+}
+.maps iframe{
+    width: 100%;
+    height: 100%;
+}
+.contact-form{
+    width: 950px;
+    padding: 25px;
+    background-image: url("../Images/pawel-czerwinski-aHvrE9nYess-unsplash.jpg");
+    -webkit-background-size: cover ;
+    background-size: cover;
+}
+.contact-form> .wrapper{
+    width: 400px;
+    height: 420px;
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #fff;
+}
+.register >input{
+    background-color: teal;
+    color: white;
+    border: 0px;
+}
+.register >input:hover{
+    background-color: orange;
+}
